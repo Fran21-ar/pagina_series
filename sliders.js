@@ -39,18 +39,3 @@ window.addEventListener('clik', function(event){
     }
 });
 
-/* const menuButton = document.getElementById('menuButton');
-const popupMenu = document.getElementById('popupMenu');
-
-// Función para mostrar/ocultar el menú
-menuButton.addEventListener('click', function() {
-  popupMenu.classList.toggle('show'); // Agrega o quita la clase 'show'
-});
-
-// Cerrar el menú si haces clic fuera de él
-window.addEventListener('click', function(event) {
-  if (!menuButton.contains(event.target) && !popupMenu.contains(event.target)) {
-    popupMenu.classList.remove('show'); // Oculta el menú si haces clic fuera
-  }
-});
-*/
